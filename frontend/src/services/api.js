@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://admin-panel-task-production.up.railway.app/api', // Updated base URL
 });
 
 // Add token to headers
